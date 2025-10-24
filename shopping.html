@@ -1,0 +1,52 @@
+<!DOCType Html>
+<!--Cloe Snider, 10/24/25-->
+
+<html lang="en">
+	<head>
+		<title> Project 3 </title>
+		
+	</head>
+	
+	<body>
+		<style>
+			body {background-color: #f7e6f6;}
+			h1 {color: #8f3664;}
+			div {color:#a64b7a;}
+		</style>
+		<header>
+			<h1> Cloe Snider </h1>&nbsp;
+		</header>
+		<h1> Project 3 </h1> &nbsp;
+		
+		<h1> Questions </h1>
+		<div>
+			<ol>
+				<li> Name a situation where you would need to create an "if" statement. (There are many answers to this question.) </li>
+				<li> When Comparing values, in what data type is the result stored? </li>
+			</ol>
+		</div>
+		
+		<h1> Answers </h1>
+		<div>
+			<ol>
+				<li> You would need to create an "if" statement to control the program flow based on saved variables. </li>
+				<li> All comparison operators return a boolean value. </li>
+			</ol>
+		</div>
+		<h1> The exercises have already popped up when page was first opened. </h1>
+		
+		<script>
+			let total= prompt("What is your shopping total?");
+			let confirmationMessage= "Your total is " + total + ". Click Ok to continue.";
+			let confirmed= confirm(confirmationMessage);
+			
+			if (total > 100) {
+			alert( '20% Off!');
+			} else if (total> 50) {
+			alert( '10% Off!');
+			} else if (total< 50) {
+			alert('No Discount.');
+			}
+		</script>
+	</body>
+</html>
